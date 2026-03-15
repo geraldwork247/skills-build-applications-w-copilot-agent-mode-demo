@@ -1,6 +1,7 @@
 from rest_framework import viewsets
 from .models import User, Team, Activity, Leaderboard, Workout
 from .serializers import UserSerializer, TeamSerializer, ActivitySerializer, LeaderboardSerializer, WorkoutSerializer
+# Test change: for git push demonstration
 
 class UserViewSet(viewsets.ModelViewSet):
     queryset = User.objects.all()
